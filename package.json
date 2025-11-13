@@ -1,0 +1,20 @@
+{
+  "name": "docus-starter",
+  "scripts": {
+    "dev": "nuxt dev --extends docus",
+    "build": "nuxt build --extends docus"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.8.0",
+    "@nuxt/eslint": "^1.10.0",
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/scripts": "^0.13.0",
+    "@nuxt/ui": "^4.1.0",
+    "@unhead/vue": "^2.0.19",
+    "better-sqlite3": "^12.2.0",
+    "docus": "latest",
+    "eslint": "^9.39.1",
+    "nuxt": "^4.2.1",
+    "typescript": "^5.9.3"
+  }
+}
