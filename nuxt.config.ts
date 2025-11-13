@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  extends: [
+    'docus',
+    './layers/react',
+  ],
   future: {
     compatibilityVersion: 5,
   },
@@ -16,8 +20,19 @@ export default defineNuxtConfig({
       code: 'en',
       name: 'English',
     }, {
-      code: 'fr',
-      name: 'Français',
+      code: 'es',
+      name: 'Español',
     }],
   },
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          langs: [
+            'tsx'
+          ]
+        }
+      }
+    }
+  }
 })

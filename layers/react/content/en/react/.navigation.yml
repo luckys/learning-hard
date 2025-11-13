@@ -1,0 +1,24 @@
+title: React Forum
+icon: i-simple-icons-react
+
+# Top-level sections
+- title: 1. Introduction
+  to: /en/react/1.introduction/project-overview
+- title: 2. Project Setup
+  to: /en/react/2.project-setup/start-here
+- title: 3. React Fundamentals
+  to: /en/react/3.react-fundamentals/architecture-overview
+- title: 4. Hooks in Practice
+  to: /en/react/4.hooks-in-practice/query-basics
+- title: 5. Routing & Layout
+  to: /en/react/5.routing-and-layout/route-structure
+- title: 6. Forms & Validation
+  to: /en/react/6.forms-and-validation/forms-overview
+- title: 7. Data & CRUD
+  to: /en/react/7.data-and-crud/rest-clients
+- title: 8. UI & Styling
+  to: /en/react/8.ui-and-styling/design-system
+- title: 9. Testing & Quality
+  to: /en/react/9.testing-and-quality/testing-strategy
+- title: 10. Deployment & Next Steps
+  to: /en/react/10.deployment-and-next-steps/production-build
