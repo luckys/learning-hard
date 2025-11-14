@@ -31,7 +31,7 @@ Learn React by building a real-world forum application. Master React fundamental
   ---
   color: neutral
   size: xl
-  to: /en/react/1.introduction/overview
+  to: /en/react/introduction/overview
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
@@ -41,7 +41,7 @@ Learn React by building a real-world forum application. Master React fundamental
   ---
   color: neutral
   size: xl
-  to: /es/react/1.introduccion/descripcion
+  to: /es/react/introduction/overview
   variant: outline
   ---
   Ver en Español

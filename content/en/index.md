@@ -1,123 +1,261 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: Learning Hard - Comprehensive Web Development Documentation
+  description: Master modern web development with comprehensive guides on React, Vue, TypeScript, Nuxt, Next.js, and more. Learn by building real-world applications.
 ---
 
 ::u-page-hero
+---
+orientation: horizontal
+---
+
 #title
-Write beautiful docs with Markdown
+Master Modern Web Development
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Comprehensive, production-ready documentation for building scalable web applications. Learn React, Vue, TypeScript, Nuxt, Next.js, and more through real-world projects and best practices.
 
 #links
   :::u-button
   ---
-  color: neutral
+  color: primary
   size: xl
-  to: /en/getting-started/installation
+  to: /en/react/introduction/overview
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Explore React Documentation
   :::
 
   :::u-button
   ---
   color: neutral
-  icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
   variant: outline
+  to: #documentation
+  trailing-icon: i-lucide-arrow-down
   ---
-  Star on GitHub
+  View All Topics
+  :::
+::
+
+::u-page-section
+---
+id: documentation
+---
+#title
+Complete Learning Path
+
+#description
+Structured documentation covering the entire modern web development stack. Each guide includes real-world examples, best practices, and production-ready patterns.
+
+#features
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-react
+  to: /en/react/introduction/overview
+  ---
+  #title
+  [React]{.text-blue-400}
+  
+  #description
+  Build a production-ready forum application. Master React fundamentals, advanced patterns, hooks, state management, testing, and deployment. 12,000+ lines of comprehensive documentation with 150+ code examples.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-vue
+  ---
+  #title
+  [Vue]{.text-green-400}
+  
+  #description
+  Coming soon. Learn Vue 3 composition API, component patterns, state management with Pinia, and building scalable applications.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-typescript
+  ---
+  #title
+  [TypeScript]{.text-blue-500}
+  
+  #description
+  Coming soon. Master TypeScript from fundamentals to advanced patterns. Learn type systems, generics, decorators, and best practices for large-scale applications.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxtdotjs
+  ---
+  #title
+  [Nuxt]{.text-green-500}
+  
+  #description
+  Coming soon. Build full-stack applications with Nuxt 4. Learn server components, API routes, middleware, and deployment strategies.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nextdotjs
+  ---
+  #title
+  [Next.js]{.text-gray-900}
+  
+  #description
+  Coming soon. Master Next.js App Router, server components, API routes, authentication, and production deployment on Vercel.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-code
+  ---
+  #title
+  [More Topics]{.text-purple-400}
+  
+  #description
+  Coming soon. Additional documentation on testing, DevOps, databases, performance optimization, and advanced web development topics.
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Why Learning Hard?
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-zap
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  Production-Ready
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Every guide includes real-world examples and production-ready patterns. Learn not just how to code, but how to build scalable applications.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-book-open
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  Comprehensive Coverage
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  From fundamentals to advanced concepts. Each topic is covered in depth with multiple examples and best practices.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-globe
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  Bilingual Content
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  All documentation available in English and Spanish. Learn in your preferred language with consistent terminology.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-lucide-code-2
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  Real-World Projects
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Learn by building complete applications. Each guide walks you through creating production-grade features and patterns.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-lucide-target
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
+  Best Practices
   
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Industry-standard patterns and practices. Learn security, performance optimization, testing strategies, and deployment.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-lucide-users
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  Community Driven
   
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Built for developers, by developers. Continuously updated with the latest frameworks, tools, and best practices.
+  :::
+::
+
+::u-page-section
+#title
+Get Started Today
+
+#description
+Choose your learning path and start mastering modern web development.
+
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-book
+  ---
+  #title
+  React Documentation
+  
+  #description
+  Build a complete forum application while mastering React fundamentals and advanced patterns.
+  
+  :::u-button
+  ---
+  color: primary
+  to: /en/react/introduction/overview
+  size: sm
+  ---
+  Start Learning
+  :::
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-hourglass
+  ---
+  #title
+  Coming Soon
+  
+  #description
+  Vue, TypeScript, Nuxt, Next.js, and more comprehensive guides are in development.
+  
+  :::u-button
+  ---
+  color: neutral
+  variant: outline
+  size: sm
+  disabled
+  ---
+  Coming Soon
+  :::
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-star
+  ---
+  #title
+  Stay Updated
+  
+  #description
+  New documentation releases regularly. Check back often for new topics and updates.
+  
+  :::u-button
+  ---
+  color: neutral
+  variant: outline
+  size: sm
+  to: https://github.com
+  ---
+  Follow Updates
+  :::
   :::
 ::

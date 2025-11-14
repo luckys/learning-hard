@@ -1,7 +1,6 @@
 export default defineNuxtConfig({
   extends: [
-    'docus',
-    './layers/react',
+    'docus'
   ],
   future: {
     compatibilityVersion: 5,

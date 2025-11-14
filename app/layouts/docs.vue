@@ -1,6 +1,6 @@
 <template>
   <UMain>
-    <UContainer style="max-width: 1800px">
+    <UContainer style="max-width: 1600px">
       <UPage>
         <template #left>
           <UPageAside>
